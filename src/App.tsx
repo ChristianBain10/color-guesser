@@ -13,6 +13,7 @@ const generateRandomColor = () => {
 function App() {
 
   // color guessing game
+  // test comment
   const [currentColor, setCurrentColor] = useState<string>('');
   const [resultMessage, setResultMessage] = useState<string>('');
 
